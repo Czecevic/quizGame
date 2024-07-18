@@ -1,3 +1,6 @@
+import skyyartChaussure from "../assets/skyyartChaussure.png";
+import cacaboudin from "../assets/cacaboudin.jpg";
+import squeezie from "../assets/squeezie.jpg";
 export const dataGeo = [
   {
     question: "Quelle est la capitale du Canada?",
@@ -130,6 +133,8 @@ export const dataFun = [
     c: "entre 100 - 300",
     d: "entre 400 - 600",
     goodResponse: "entre 300 - 500",
+    goodResponseDesk:
+      "Grandes marques internationales : Environ 50 à 100 marques. Cela inclut les grands noms bien connus comme Harley-Davidson, Honda, Yamaha, Suzuki, BMW, Ducati, KTM, Triumph, etc.Marques régionales et spécialisées : Environ 200 à 300 marques. Cela inclut des marques populaires dans des régions spécifiques comme Bajaj, Hero MotoCorp, Benelli, CFMoto, ainsi que des marques spécialisées dans certains types de motos comme les motos tout-terrain ou les motos électriques.Petites marques et artisans : Environ 100 à 200 marques. Cela inclut les fabricants de motos sur mesure, les artisans et les petites entreprises locales qui produisent des motos en petites séries ou des modèles personnalisés.",
   },
   {
     question: "qui a perdu ses chaussures dans son propre ? ",
@@ -138,6 +143,7 @@ export const dataFun = [
     c: "Skyyart",
     d: "Terracid",
     goodResponse: "skyyart",
+    goodResponseDesk: skyyartChaussure,
   },
   {
     question: "Quel personne à écrit le livre CacaBoudin ?",
@@ -146,6 +152,7 @@ export const dataFun = [
     c: "Amelie N**re",
     d: "Emmanuel Black",
     goodResponse: "Stephanie Blake",
+    goodResponseDesk: cacaboudin,
   },
   {
     question:
@@ -155,6 +162,8 @@ export const dataFun = [
     c: "du café",
     d: "un perrier",
     goodResponse: "du café",
+    goodResponseDesk:
+      "Dans le film 'Le Fabuleux Destin d'Amélie Poulain', le personnage principal, Amélie, interprété par Audrey Tautou, est souvent vu dans des cafés parisiens. Une des scènes les plus emblématiques est celle où elle travaille comme serveuse au café des 2 Moulins à Montmartre. Lors de ses pauses ou moments de détente, Amélie est vue en train de boire différentes boissons, mais la plus notable est le vin rouge.",
   },
   {
     question: "Qui controle les médias et le cerveaux du peuple ?",
@@ -163,6 +172,7 @@ export const dataFun = [
     c: "les journalopes",
     d: "le gouverne-nous-ment",
     goodResponse: "squeezie",
+    goodResponseDesk: squeezie,
   },
   {
     question: "Quel est la marque la plus utiliser de tondeuse ?",
@@ -171,23 +181,29 @@ export const dataFun = [
     c: "Husqvarna",
     d: "Honda",
     goodResponse: "Honda",
+    goodResponseDesk:
+      "Réputée pour ses moteurs fiables et ses tondeuses durables",
   },
   {
     question: "Quel est le jeu le plus offert de tous les temps ?",
     a: "Playmobil",
     b: "Lego",
-    c: "Barbie",
+    c: "Monopoly",
     d: "Figurines Pokemon",
-    goodResponse: "Lego",
+    goodResponse: "Monopoly",
+    goodResponseDesk:
+      "Le jeu le plus offert de tous les temps est probablement Monopoly. Ce jeu de société classique a été inventé par Charles Darrow et publié par Parker Brothers (maintenant une marque de Hasbro) en 1935. Monopoly est devenu un phénomène mondial, étant traduit en plusieurs langues et adapté en de nombreuses éditions thématiques.",
   },
   {
     question:
       "Combien faut-il en moyenne de grains de raisins pour faire une bouteille de 75 cl de vin ?",
-    a: "200",
-    b: "400",
-    c: "600",
-    d: "800",
-    goodResponse: "600",
+    a: "200 - 400",
+    b: "400 - 600",
+    c: "600 - 800",
+    d: "800 - 1000",
+    goodResponse: "600 - 800",
+    goodResponseDesk:
+      "En général, il faut environ 600 à 800 grains de raisin pour produire une bouteille de vin de 75 cl.",
   },
   {
     question:
@@ -197,6 +213,8 @@ export const dataFun = [
     c: "10 millions",
     d: "100 millions",
     goodResponse: "1 million",
+    goodResponseDesk:
+      "Il faudrait environ 1 million de moustiques pour nous vider de notre sang.",
   },
   {
     question: "Quel animal cause le plus de mort humaine tous les ans ?",
@@ -205,6 +223,8 @@ export const dataFun = [
     c: "Le crocodile",
     d: "L'hippopotam(us) ^^",
     goodResponse: "1 million",
+    goodResponseDesk:
+      "Le moustique est l'animal qui cause le plus de morts humaines tous les ans.",
   },
   {
     question: "Quel est le fruit le plus consommé dans le monde ?",
@@ -213,6 +233,7 @@ export const dataFun = [
     c: "Le raisin",
     d: "L'orange",
     goodResponse: "La banane",
+    goodResponseDesk: "La banane est le fruit le plus consommé dans le monde.",
   },
   {
     question: "Combien de temps dure en moyenne un bâillement humain ?",
@@ -221,6 +242,7 @@ export const dataFun = [
     c: "9 secondes",
     d: "12 secondes",
     goodResponse: "6 secondes",
+    goodResponseDesk: "Un bâillement humain dure en moyenne 6 secondes.",
   },
   {
     question: "Quel est le pays le plus petit du monde en superficie ?",
@@ -229,6 +251,8 @@ export const dataFun = [
     c: "Saint-Marin",
     d: "Le Vatican",
     goodResponse: "Le Vatican",
+    goodResponseDesk:
+      "Le Vatican est le pays le plus petit du monde en superficie.",
   },
   {
     question: "Quel est l'animal national de l'Écosse ?",
@@ -237,6 +261,7 @@ export const dataFun = [
     c: "Le dragon",
     d: "Le griffon",
     goodResponse: "La licorne",
+    goodResponseDesk: "La licorne est l'animal national de l'Écosse.",
   },
   {
     question:
@@ -246,6 +271,8 @@ export const dataFun = [
     c: "12 minutes",
     d: "16 minutes",
     goodResponse: "8 minutes",
+    goodResponseDesk:
+      "La lumière du soleil met environ 8 minutes pour atteindre la Terre.",
   },
   {
     question: "Quel est l'aliment le plus volé dans le monde ?",
@@ -254,6 +281,7 @@ export const dataFun = [
     c: "Le vin",
     d: "Le pain",
     goodResponse: "Le fromage",
+    goodResponseDesk: "Le fromage est l'aliment le plus volé dans le monde.",
   },
   {
     question: "Combien de cœurs a une pieuvre ?",
@@ -262,6 +290,7 @@ export const dataFun = [
     c: "3",
     d: "4",
     goodResponse: "3",
+    goodResponseDesk: "Une pieuvre a 3 cœurs.",
   },
   {
     question: "Quelle est la ville la plus visitée au monde ?",
@@ -270,5 +299,6 @@ export const dataFun = [
     c: "Bangkok",
     d: "Londres",
     goodResponse: "Bangkok",
+    goodResponseDesk: "Bangkok est la ville la plus visitée au monde.",
   },
 ];

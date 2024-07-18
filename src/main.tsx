@@ -8,24 +8,24 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div className="flex flex-col items-center gap-20 justify-center w-screen animated-background h-screen bg-gradient-to-t from-slate-900 via-cyan-500 to-indigo-800">
+      <div className="flex flex-col items-center gap-20 justify-center animated-background h-screen">
         <h1 className="text-4xl font-bold">Hello !</h1>
         <p>
           Bienvenue dans mon Quiz complétement crazy, choisis l'un des thème
           suivant :
         </p>
-        <ul>
-          <li>
-            <Link to="geographie">
-              <button>Geographie</button>
-            </Link>
-          </li>
-          <li>
-            <Link to="fun">
-              <button>Fun</button>
-            </Link>
-          </li>
-        </ul>
+        <div className="flex flex-col items-center gap-5 w-full">
+          <Link to="geographie" className="w-full">
+            <button className=" w-full bg-blue-500 hover:bg-blue-50 text-white hover:text-black font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              Geographie
+            </button>
+          </Link>
+          <Link to="fun" className="w-full">
+            <button className=" w-full bg-yellow-500 hover:bg-yellow-50 text-white hover:text-black font-bold py-2 px-4 border-b-4 border-yellow-700 hover:border-yellow-500 rounded">
+              Fun
+            </button>
+          </Link>
+        </div>
       </div>
     ),
   },

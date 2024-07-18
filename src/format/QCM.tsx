@@ -12,6 +12,7 @@ interface QCMPropos {
     c: string;
     d: string;
     goodResponse: string;
+    goodResponseDesk?: string;
   }[];
 }
 
@@ -48,7 +49,6 @@ export const QCM: React.FunctionComponent<QCMPropos> = ({ name, data }) => {
     setTimeout(() => {
       setShowResponse(null);
       let newIndex;
-      console.log(questionIndex);
       do {
         newIndex = Math.floor(Math.random() * data.length);
       } while (
@@ -56,7 +56,7 @@ export const QCM: React.FunctionComponent<QCMPropos> = ({ name, data }) => {
         answeredQuestions.size < data.length
       );
       setQuestionIndex(newIndex);
-    }, 1000);
+    }, 2000);
   };
 
   // all response
@@ -102,6 +102,8 @@ export const QCM: React.FunctionComponent<QCMPropos> = ({ name, data }) => {
         <ShowResponse
           res={showResponse}
           feedbackAnimation={feedbackAnimation}
+          goodResponse={data[questionIndex].goodResponse}
+          goodResponseDesk={data[questionIndex].goodResponseDesk}
         />
       )}
       {showVictory && <ShowVictory victoryAnimation={victoryAnimation} />}
