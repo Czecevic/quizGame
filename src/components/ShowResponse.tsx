@@ -18,7 +18,7 @@ export const ShowResponse: React.FunctionComponent<ResProps> = ({
   goodResponse,
   goodResponseDesk,
 }) => {
-  console.log(goodResponseDesk?.includes("/"));
+  // console.log(goodResponseDesk);
   return (
     <animated.div
       style={feedbackAnimation}
@@ -35,8 +35,10 @@ export const ShowResponse: React.FunctionComponent<ResProps> = ({
       {res === "correct" ? (
         <div className="flex flex-col items-center">
           <p>Bonne réponse</p>
-          {goodResponseDesk?.includes("/") === true && (
+          {goodResponseDesk?.includes("/") === true ? (
             <img src={goodResponseDesk} className="w-1/3"></img>
+          ) : (
+            <p>{goodResponseDesk}</p>
           )}
         </div>
       ) : (

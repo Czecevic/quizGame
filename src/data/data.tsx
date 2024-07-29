@@ -142,7 +142,7 @@ export const dataFun = [
     b: "Amixem",
     c: "Skyyart",
     d: "Terracid",
-    goodResponse: "skyyart",
+    goodResponse: "Skyyart",
     goodResponseDesk: skyyartChaussure,
   },
   {
@@ -219,10 +219,10 @@ export const dataFun = [
   {
     question: "Quel animal cause le plus de mort humaine tous les ans ?",
     a: "Le requin",
-    b: "Le serpent",
+    b: "Le moustique",
     c: "Le crocodile",
     d: "L'hippopotam(us) ^^",
-    goodResponse: "1 million",
+    goodResponse: "Le moustique",
     goodResponseDesk:
       "Le moustique est l'animal qui cause le plus de morts humaines tous les ans.",
   },
@@ -300,5 +300,164 @@ export const dataFun = [
     d: "Londres",
     goodResponse: "Bangkok",
     goodResponseDesk: "Bangkok est la ville la plus visitée au monde.",
+  },
+];
+
+export const dataMusik = [
+  {
+    question: "Qui est connu comme le 'Roi de la Pop' ?",
+    a: "Elvis Presley",
+    b: "Michael Jackson",
+    c: "Prince",
+    d: "Freddie Mercury",
+    goodResponse: "Michael Jackson",
+    goodResponseDesk:
+      "Michael Jackson, connu comme le 'Roi de la Pop', a révolutionné la musique et la danse avec ses albums emblématiques comme 'Thriller', 'Bad' et 'Dangerous'. Sa carrière a influencé des générations de musiciens et de fans à travers le monde.",
+  },
+  {
+    question:
+      "Quel groupe britannique a sorti l'album 'The Dark Side of the Moon' ?",
+    a: "The Beatles",
+    b: "The Rolling Stones",
+    c: "Pink Floyd",
+    d: "Led Zeppelin",
+    goodResponse: "Pink Floyd",
+    goodResponseDesk:
+      "'The Dark Side of the Moon' est un album légendaire du groupe britannique Pink Floyd, sorti en 1973. C'est un chef-d'œuvre du rock progressif, célèbre pour ses compositions complexes et ses thèmes philosophiques.",
+  },
+  {
+    question:
+      "Qui est l'artiste féminin ayant vendu le plus d'albums de tous les temps ?",
+    a: "Whitney Houston",
+    b: "Madonna",
+    c: "Celine Dion",
+    d: "Mariah Carey",
+    goodResponse: "Madonna",
+    goodResponseDesk:
+      "Madonna est l'artiste féminine ayant vendu le plus d'albums de tous les temps. Surnommée la 'Reine de la Pop', elle a marqué l'industrie musicale avec des albums comme 'Like a Virgin', 'True Blue' et 'Ray of Light'.",
+  },
+  {
+    question: "Quel est le genre musical associé à Bob Marley ?",
+    a: "Rock",
+    b: "Jazz",
+    c: "Reggae",
+    d: "Blues",
+    goodResponse: "Reggae",
+    goodResponseDesk:
+      "Bob Marley est l'icône mondiale du reggae. Ses chansons, telles que 'No Woman, No Cry', 'One Love' et 'Redemption Song', ont popularisé ce genre musical jamaïcain à travers le monde.",
+  },
+  {
+    question:
+      "Quel instrument est principalement utilisé dans la musique jazz ?",
+    a: "Guitare",
+    b: "Piano",
+    c: "Saxophone",
+    d: "Violon",
+    goodResponse: "Saxophone",
+    goodResponseDesk:
+      "Le saxophone est un instrument emblématique du jazz. Des musiciens légendaires comme John Coltrane et Charlie Parker ont fait du saxophone un élément central de la musique jazz.",
+  },
+  {
+    question: "Quelle chanson des Beatles est la plus vendue ?",
+    a: "Hey Jude",
+    b: "Yesterday",
+    c: "Let It Be",
+    d: "Come Together",
+    goodResponse: "Hey Jude",
+    goodResponseDesk:
+      "'Hey Jude', une chanson des Beatles écrite par Paul McCartney, est l'un des plus grands succès du groupe. Sortie en 1968, elle est devenue un hymne classique du rock.",
+  },
+  {
+    question:
+      "Qui a composé la Symphonie No. 9, également connue sous le nom de l'Ode à la Joie ?",
+    a: "Ludwig van Beethoven",
+    b: "Wolfgang Amadeus Mozart",
+    c: "Johann Sebastian Bach",
+    d: "Franz Schubert",
+    goodResponse: "Ludwig van Beethoven",
+    goodResponseDesk:
+      "La Symphonie No. 9 de Beethoven, avec son mouvement final 'Ode à la Joie', est l'une des œuvres les plus célèbres et les plus jouées de la musique classique.",
+  },
+  {
+    question: "Quel artiste est connu pour l'album 'Purple Rain' ?",
+    a: "Prince",
+    b: "David Bowie",
+    c: "Michael Jackson",
+    d: "Stevie Wonder",
+    goodResponse: "Prince",
+    goodResponseDesk:
+      "Prince, l'icône de la musique pop, rock et funk, a sorti 'Purple Rain' en 1984. Cet album, accompagné d'un film du même nom, est considéré comme l'un des plus grands albums de tous les temps.",
+  },
+  {
+    question: "Quel compositeur est célèbre pour son opéra 'La Traviata' ?",
+    a: "Giuseppe Verdi",
+    b: "Richard Wagner",
+    c: "Giacomo Puccini",
+    d: "Georges Bizet",
+    goodResponse: "Giuseppe Verdi",
+    goodResponseDesk:
+      "Giuseppe Verdi est l'un des compositeurs d'opéra les plus influents de l'histoire. 'La Traviata', créée en 1853, est l'une de ses œuvres les plus populaires et fréquemment interprétées.",
+  },
+  {
+    question: "Quelle chanteuse est surnommée 'La Diva aux pieds nus' ?",
+    a: "Billie Holiday",
+    b: "Aretha Franklin",
+    c: "Cesária Évora",
+    d: "Ella Fitzgerald",
+    goodResponse: "Cesária Évora",
+    goodResponseDesk:
+      "Cesária Évora, chanteuse capverdienne, est surnommée 'La Diva aux pieds nus' en raison de sa préférence pour chanter sans chaussures. Elle est célèbre pour ses mornas et ses coladeiras.",
+  },
+  {
+    question: "Quel groupe est connu pour l'album 'Rumours' ?",
+    a: "Eagles",
+    b: "Fleetwood Mac",
+    c: "The Beach Boys",
+    d: "The Doors",
+    goodResponse: "Fleetwood Mac",
+    goodResponseDesk:
+      "'Rumours', sorti en 1977, est l'album le plus célèbre de Fleetwood Mac. Cet album est l'un des plus vendus de tous les temps et comprend des hits comme 'Go Your Own Way' et 'Dreams'.",
+  },
+  {
+    question: "Qui est l'artiste principal de la chanson 'Shape of You' ?",
+    a: "Justin Bieber",
+    b: "Ed Sheeran",
+    c: "Shawn Mendes",
+    d: "Sam Smith",
+    goodResponse: "Ed Sheeran",
+    goodResponseDesk:
+      "Ed Sheeran, chanteur-compositeur britannique, a sorti 'Shape of You' en 2017. La chanson a connu un immense succès mondial et est l'une des plus streamées de tous les temps.",
+  },
+  {
+    question:
+      "Quel genre musical est associé à la ville de La Nouvelle-Orléans ?",
+    a: "Country",
+    b: "Blues",
+    c: "Jazz",
+    d: "Rock",
+    goodResponse: "Jazz",
+    goodResponseDesk:
+      "La Nouvelle-Orléans est souvent considérée comme le berceau du jazz. La ville a une riche histoire musicale et est célèbre pour ses festivals de jazz et ses légendaires clubs de musique.",
+  },
+  {
+    question:
+      "Quelle chanson de Queen commence par les paroles 'Is this the real life?'",
+    a: "We Will Rock You",
+    b: "Bohemian Rhapsody",
+    c: "Another One Bites the Dust",
+    d: "Radio Ga Ga",
+    goodResponse: "Bohemian Rhapsody",
+    goodResponseDesk:
+      "'Bohemian Rhapsody', l'un des plus grands succès de Queen, commence par les paroles emblématiques 'Is this the real life?'. La chanson, sortie en 1975, est une pièce maîtresse du rock.",
+  },
+  {
+    question: "Quel artiste a popularisé le 'Moonwalk' ?",
+    a: "James Brown",
+    b: "Michael Jackson",
+    c: "Elvis Presley",
+    d: "David Bowie",
+    goodResponse: "Michael Jackson",
+    goodResponseDesk:
+      "Michael Jackson a popularisé le 'Moonwalk' lors de sa performance en 1983 pour la chanson 'Billie Jean'. Ce mouvement de danse est devenu emblématique de sa carrière.",
   },
 ];

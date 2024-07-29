@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 import "./index.css";
 import { Geographie } from "./question/Geographie";
 import { Fun } from "./question/Fun";
+import { Musik } from "./question/Musik";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
               Fun
             </button>
           </Link>
+          <Link to="Musique" className="w-full">
+            <button className=" w-full bg-red-500 hover:bg-red-50 text-white hover:text-black font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">
+              Musique
+            </button>
+          </Link>
         </div>
       </div>
     ),
@@ -36,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "fun",
     element: <Fun />,
+  },
+  {
+    path: "Musique",
+    element: <Musik />,
   },
 ]);
 
